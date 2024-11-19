@@ -127,105 +127,100 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CMDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CMDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="CMDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CMDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="FormLogin.cs">
+    <Compile Include="Bl\UserBusiness.cs" />
+    <Compile Include="Bl\UserService.cs" />
+    <Compile Include="DL\DatabaseHelper.cs" />
+    <Compile Include="DL\UserDAL.cs" />
+    <Compile Include="Model\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogin.Designer.cs">
+    <Compile Include="Model\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="formMain.cs">
+    <Compile Include="Model\formMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formMain.Designer.cs">
+    <Compile Include="Model\formMain.Designer.cs">
       <DependentUpon>formMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHome.cs">
+    <Compile Include="Model\frmHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHome.Designer.cs">
+    <Compile Include="Model\frmHome.Designer.cs">
       <DependentUpon>frmHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPrint.cs">
+    <Compile Include="Model\frmPrint.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPrint.Designer.cs">
+    <Compile Include="Model\frmPrint.Designer.cs">
       <DependentUpon>frmPrint.cs</DependentUpon>
     </Compile>
     <Compile Include="MainClass.cs" />
-    <Compile Include="Model\frmAddCustomer.cs">
+    <Compile Include="TL\UserTransaction.cs" />
+    <Compile Include="View\frmAddCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmAddCustomer.Designer.cs">
+    <Compile Include="View\frmAddCustomer.Designer.cs">
       <DependentUpon>frmAddCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmBillList.cs">
+    <Compile Include="View\frmBillList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmBillList.Designer.cs">
+    <Compile Include="View\frmBillList.Designer.cs">
       <DependentUpon>frmBillList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmCategoryAdd.cs">
+    <Compile Include="View\frmCategoryAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmCategoryAdd.Designer.cs">
+    <Compile Include="View\frmCategoryAdd.Designer.cs">
       <DependentUpon>frmCategoryAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmCheckOut.cs">
+    <Compile Include="View\frmCheckOut.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmCheckOut.Designer.cs">
+    <Compile Include="View\frmCheckOut.Designer.cs">
       <DependentUpon>frmCheckOut.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmPOS.cs">
+    <Compile Include="View\frmPOS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmPOS.Designer.cs">
+    <Compile Include="View\frmPOS.Designer.cs">
       <DependentUpon>frmPOS.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmProductAdd.cs">
+    <Compile Include="View\frmProductAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmProductAdd.Designer.cs">
+    <Compile Include="View\frmProductAdd.Designer.cs">
       <DependentUpon>frmProductAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmStaffAdd.cs">
+    <Compile Include="View\frmStaffAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmStaffAdd.Designer.cs">
+    <Compile Include="View\frmStaffAdd.Designer.cs">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmTableAdd.cs">
+    <Compile Include="View\frmTableAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmTableAdd.Designer.cs">
+    <Compile Include="View\frmTableAdd.Designer.cs">
       <DependentUpon>frmTableAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmTableSelect.cs">
+    <Compile Include="View\frmTableSelect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmTableSelect.Designer.cs">
+    <Compile Include="View\frmTableSelect.Designer.cs">
       <DependentUpon>frmTableSelect.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmWaiterSelect.cs">
+    <Compile Include="View\frmWaiterSelect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\frmWaiterSelect.Designer.cs">
+    <Compile Include="View\frmWaiterSelect.Designer.cs">
       <DependentUpon>frmWaiterSelect.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\ucProduct.cs">
+    <Compile Include="View\ucProduct.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Model\ucProduct.Designer.cs">
+    <Compile Include="View\ucProduct.Designer.cs">
       <DependentUpon>ucProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -279,49 +274,49 @@
     <Compile Include="View\frmTableView.Designer.cs">
       <DependentUpon>frmTableView.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormLogin.resx">
+    <EmbeddedResource Include="Model\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formMain.resx">
+    <EmbeddedResource Include="Model\formMain.resx">
       <DependentUpon>formMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHome.resx">
+    <EmbeddedResource Include="Model\frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPrint.resx">
+    <EmbeddedResource Include="Model\frmPrint.resx">
       <DependentUpon>frmPrint.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmAddCustomer.resx">
+    <EmbeddedResource Include="View\frmAddCustomer.resx">
       <DependentUpon>frmAddCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmBillList.resx">
+    <EmbeddedResource Include="View\frmBillList.resx">
       <DependentUpon>frmBillList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmCategoryAdd.resx">
+    <EmbeddedResource Include="View\frmCategoryAdd.resx">
       <DependentUpon>frmCategoryAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmCheckOut.resx">
+    <EmbeddedResource Include="View\frmCheckOut.resx">
       <DependentUpon>frmCheckOut.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmPOS.resx">
+    <EmbeddedResource Include="View\frmPOS.resx">
       <DependentUpon>frmPOS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmProductAdd.resx">
+    <EmbeddedResource Include="View\frmProductAdd.resx">
       <DependentUpon>frmProductAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmStaffAdd.resx">
+    <EmbeddedResource Include="View\frmStaffAdd.resx">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmTableAdd.resx">
+    <EmbeddedResource Include="View\frmTableAdd.resx">
       <DependentUpon>frmTableAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmTableSelect.resx">
+    <EmbeddedResource Include="View\frmTableSelect.resx">
       <DependentUpon>frmTableSelect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmWaiterSelect.resx">
+    <EmbeddedResource Include="View\frmWaiterSelect.resx">
       <DependentUpon>frmWaiterSelect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\ucProduct.resx">
+    <EmbeddedResource Include="View\ucProduct.resx">
       <DependentUpon>ucProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -361,28 +356,6 @@
     </EmbeddedResource>
     <None Include="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CMDataSet.xsc">
-      <DependentUpon>CMDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="CMDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>CMDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="CMDataSet.xss">
-      <DependentUpon>CMDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="CMDataSet1.xsc">
-      <DependentUpon>CMDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="CMDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>CMDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="CMDataSet1.xss">
-      <DependentUpon>CMDataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -527,5 +500,6 @@
       <DependentUpon>CM.mdf</DependentUpon>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

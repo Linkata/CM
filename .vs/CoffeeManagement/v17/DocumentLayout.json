@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\phant\\Desktop\\CM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm\\coffeemanagement\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm\\coffeemanagement\\model\\ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm\\coffeemanagement\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -25,23 +33,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ucProduct.cs",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\ucProduct.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\ucProduct.cs",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\ucProduct.cs",
+              "RelativeToolTip": "CoffeeManagement\\Model\\ucProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T08:24:04.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainClass.cs",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\MainClass.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\MainClass.cs",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\MainClass.cs*",
+              "RelativeToolTip": "CoffeeManagement\\MainClass.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T08:24:02.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SampleAdd.cs [Design]",
               "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\SampleAdd.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\SampleAdd.cs",
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\SampleAdd.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\SampleAdd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T04:04:16.713Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-15T04:04:16.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "dbo.users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_PHANT_DESKTOP_CM_CM.MDF/True/SqlTable/dbo.users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_PHANT_DESKTOP_CM_CM.MDF/True/SqlTable/dbo.users.sql",
@@ -50,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\appsettings.json",
               "RelativeDocumentMoniker": "CoffeeManagement\\appsettings.json",
@@ -62,13 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\App.config",
               "RelativeDocumentMoniker": "CoffeeManagement\\App.config",
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\App.config",
               "RelativeToolTip": "CoffeeManagement\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-11-15T03:46:42.814Z",
               "EditorCaption": ""
