@@ -13,7 +13,7 @@ namespace CoffeeManagement
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit(); // Đóng toàn bộ ứng dụng
+            Application.Exit();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -32,5 +32,14 @@ namespace CoffeeManagement
             formMain mainForm = new formMain();
             mainForm.Show();
         }
+
+        private void btnLogin_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnLogin_Click(sender, e);
+            }
+        }
+
     }
 }

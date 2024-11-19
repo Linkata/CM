@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CoffeeManagement"
   ],
-  "SelectedNode": "\\.gitnore",
+  "SelectedNode": "\\CoffeeManagement\\MainClass.cs",
   "PreviewInSolutionExplorer": false
 }
