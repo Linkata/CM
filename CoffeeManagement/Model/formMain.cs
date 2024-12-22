@@ -15,7 +15,6 @@ namespace CoffeeManagement
 {
     public partial class formMain : Form
     {
-        private readonly UserTransaction _userTransaction = new UserTransaction();
 
         public static formMain Instance { get; private set; }
 
@@ -26,8 +25,20 @@ namespace CoffeeManagement
         }
         private void formMain_Load(object sender, EventArgs e)
         {
-            lblUser.Text = _userTransaction.GetUserName();
-            Instance = this; // Đặt tham chiếu formMain hiện tại vào Instance
+            this.Enabled = false;
+            this.Show();
+            FormLogin frmLogin = new FormLogin();
+            DialogResult result = frmLogin.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                this.Enabled = true;
+                lblUser.Text = frmLogin.CurrentUsername;
+                Instance = this;
+            }
+            else
+            {
+                Application.Exit();
+            }
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)

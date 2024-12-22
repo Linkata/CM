@@ -7,6 +7,8 @@ namespace CoffeeManagement
 {
     public partial class FormLogin : Form
     {
+        public string currentUsername;
+        public string CurrentUsername { get; set; }
         public FormLogin()
         {
             InitializeComponent();
@@ -25,15 +27,29 @@ namespace CoffeeManagement
 
             UserBL userBL = new UserBL();
             bool isValid = userBL.Login(username, password);
-            if (!isValid)
+            //Login success
+            if (isValid)
             {
-                guna2MessageDialog1.Show("Thông tin tài khoản hoặc mật khẩu sai! Vui lòng nhập lại");
-                return;
+                // Login success
+                currentUsername = username;
+                this.DialogResult = DialogResult.OK;
             }
-            // Nếu hợp lệ, chuyển sang form chính
-            this.Hide();
-            formMain mainForm = new formMain();
-            mainForm.Show();     
+            else
+            {
+                DialogResult result = MessageBox.Show("Username or password is incorrect", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (result == DialogResult.Cancel)
+                {
+                    Application.Exit();
+                } 
+                else
+                {
+                    txtUser.Clear();
+                    txtPass.Clear();
+                    txtUser.Focus();
+                }
+                
+            }
+ 
         }
 
         private void txtPass_KeyDown(object sender, KeyEventArgs e)
