@@ -1,4 +1,5 @@
-﻿using CoffeeManagement.BL;
+﻿using BL;
+using CoffeeManagement.BL;
 using System;
 using System.Windows.Forms;
 
@@ -9,6 +10,7 @@ namespace CoffeeManagement
         public FormLogin()
         {
             InitializeComponent();
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -18,28 +20,28 @@ namespace CoffeeManagement
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            // Kiểm tra thông tin đăng nhập qua UserService
-            bool isValid = UserService.IsValidUser(txtUser.Text.Trim(), txtPass.Text.Trim());
+            string username = txtUser.Text.Trim();
+            string password = txtPass.Text.Trim();
 
+            UserBL userBL = new UserBL();
+            bool isValid = userBL.Login(username, password);
             if (!isValid)
             {
                 guna2MessageDialog1.Show("Thông tin tài khoản hoặc mật khẩu sai! Vui lòng nhập lại");
                 return;
             }
-
             // Nếu hợp lệ, chuyển sang form chính
             this.Hide();
             formMain mainForm = new formMain();
-            mainForm.Show();
+            mainForm.Show();     
         }
 
-        private void btnLogin_KeyDown(object sender, KeyEventArgs e)
+        private void txtPass_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
                 btnLogin_Click(sender, e);
             }
         }
-
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\phant\Desktop\CM1\DL\bin\Debug\DL.dll
+C:\Users\phant\Desktop\CM1\DL\bin\Debug\DL.pdb
+C:\Users\phant\Desktop\CM1\DL\bin\Debug\TL.dll
+C:\Users\phant\Desktop\CM1\DL\bin\Debug\TL.pdb
+C:\Users\phant\Desktop\CM1\DL\obj\Debug\DL.csproj.AssemblyReference.cache
+C:\Users\phant\Desktop\CM1\DL\obj\Debug\DL.csproj.CoreCompileInputs.cache
+C:\Users\phant\Desktop\CM1\DL\obj\Debug\DL.csproj.Up2Date
+C:\Users\phant\Desktop\CM1\DL\obj\Debug\DL.dll
+C:\Users\phant\Desktop\CM1\DL\obj\Debug\DL.pdb

@@ -127,12 +127,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bl\RevenueLogic.cs" />
-    <Compile Include="Bl\UserBusiness.cs" />
-    <Compile Include="Bl\UserService.cs" />
-    <Compile Include="DL\DatabaseHelper.cs" />
-    <Compile Include="DL\RevenueModel.cs" />
-    <Compile Include="DL\UserDAL.cs" />
+    <Compile Include="BLL\RevenueLogic.cs" />
+    <Compile Include="BLL\UserBusiness.cs" />
+    <Compile Include="BLL\UserService.cs" />
+    <Compile Include="DLL\DatabaseHelper.cs" />
+    <Compile Include="DLL\RevenueModel.cs" />
+    <Compile Include="DLL\UserDAL.cs" />
     <Compile Include="Model\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,8 +158,8 @@
       <DependentUpon>frmPrint.cs</DependentUpon>
     </Compile>
     <Compile Include="MainClass.cs" />
-    <Compile Include="TL\RevenueTransaction.cs" />
-    <Compile Include="TL\UserTransaction.cs" />
+    <Compile Include="TLL\RevenueTransaction.cs" />
+    <Compile Include="TLL\UserTransaction.cs" />
     <Compile Include="View\frmAddCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -503,6 +503,15 @@
       <DependentUpon>CM.mdf</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{94d965c5-81e1-4812-b9f4-aa4e05f670cf}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TL\TL.csproj">
+      <Project>{671b56ee-3e68-44b4-87ee-66aa0f39fbc0}</Project>
+      <Name>TL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
