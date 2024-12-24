@@ -93,8 +93,8 @@ inner join products p on p.pID = d.proID where m.MainID = " + MainID + " ";
                 cr.SetDataSource(dt);
                 cr.SetDatabaseLogon("sa", "sa");
 
-                frm.crystalReportViewer1.ReportSource = cr;
-                frm.crystalReportViewer1.Refresh();
+                frm.crystalReportViewer2.ReportSource = cr;
+                frm.crystalReportViewer2.Refresh();
                 frm.Show();
             }
         }

@@ -83,5 +83,10 @@ namespace CoffeeManagement
         {
             AddControls(new frmHome());
         }
+
+        private void btnStorehouse_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmStorehouseView());
+        }
     }
 }

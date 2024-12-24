@@ -127,10 +127,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bl\MaterialBL.cs" />
     <Compile Include="Bl\RevenueLogic.cs" />
     <Compile Include="Bl\UserBusiness.cs" />
     <Compile Include="Bl\UserService.cs" />
     <Compile Include="DL\DatabaseHelper.cs" />
+    <Compile Include="DL\MaterialDL.cs" />
     <Compile Include="DL\RevenueModel.cs" />
     <Compile Include="DL\UserDAL.cs" />
     <Compile Include="Model\FormLogin.cs">
@@ -158,6 +160,7 @@
       <DependentUpon>frmPrint.cs</DependentUpon>
     </Compile>
     <Compile Include="MainClass.cs" />
+    <Compile Include="TL\MaterialTL.cs" />
     <Compile Include="TL\RevenueTransaction.cs" />
     <Compile Include="TL\UserTransaction.cs" />
     <Compile Include="View\frmAddCustomer.cs">
@@ -201,6 +204,18 @@
     </Compile>
     <Compile Include="View\frmStaffAdd.Designer.cs">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmStorehouseAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmStorehouseAdd.Designer.cs">
+      <DependentUpon>frmStorehouseAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmStorehouseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmStorehouseView.Designer.cs">
+      <DependentUpon>frmStorehouseView.cs</DependentUpon>
     </Compile>
     <Compile Include="View\frmTableAdd.cs">
       <SubType>Form</SubType>
@@ -309,6 +324,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmStaffAdd.resx">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmStorehouseAdd.resx">
+      <DependentUpon>frmStorehouseAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmStorehouseView.resx">
+      <DependentUpon>frmStorehouseView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmTableAdd.resx">
       <DependentUpon>frmTableAdd.cs</DependentUpon>
@@ -502,6 +523,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CM.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\warehouse.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
