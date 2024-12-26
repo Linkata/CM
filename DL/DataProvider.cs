@@ -5,6 +5,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace DL
 {
@@ -16,6 +18,16 @@ namespace DL
         {
             string cnStr = @"Data Source=(LocalDB)\MSSQLLocalDB; AttachDbFilename=|DataDirectory|\CM.mdf; Integrated Security=True;";
             cn = new SqlConnection(cnStr);
+        }
+
+        public static string GetConnectionString()
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+
+            IConfiguration config = builder.Build();
+            return config.GetConnectionString("DefaultConnection");
         }
 
         public void Connect()

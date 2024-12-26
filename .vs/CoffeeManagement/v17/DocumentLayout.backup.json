@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\phant\\Desktop\\CM1\\",
+  "WorkspaceRootPath": "C:\\Users\\phant\\Desktop\\CM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm1\\coffeemanagement\\model\\frmprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\frmprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm1\\coffeemanagement\\model\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm1\\coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm1\\coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm\\coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm1\\coffeemanagement\\model\\frmprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\phant\\Desktop\\CM\\coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\phant\\Desktop\\CM\\coffeemanagement\\model\\frmprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\frmprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\phant\\Desktop\\CM\\coffeemanagement\\model\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\phant\\Desktop\\CM\\coffeemanagement\\model\\frmprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\frmprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm1\\coffeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\phant\\Desktop\\CM\\coffeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm1\\coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\phant\\Desktop\\CM\\coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\phant\\desktop\\cm1\\coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\phant\\Desktop\\CM\\coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,23 +50,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\FormLogin.cs",
-              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\FormLogin.cs [Design]",
-              "RelativeToolTip": "CoffeeManagement\\Model\\FormLogin.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "formMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\formMain.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\formMain.cs",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\formMain.cs [Design]",
+              "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T04:13:16.936Z",
+              "WhenOpened": "2024-12-22T04:07:25.367Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "frmPrint.cs",
-              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\frmPrint.cs",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\frmPrint.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\Model\\frmPrint.cs",
-              "ToolTip": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\frmPrint.cs",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\frmPrint.cs",
               "RelativeToolTip": "CoffeeManagement\\Model\\frmPrint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmPrint.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\frmPrint.cs",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\frmPrint.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\Model\\frmPrint.cs",
-              "ToolTip": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\frmPrint.cs [Design]",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\frmPrint.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\Model\\frmPrint.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T04:09:12.12Z",
@@ -87,11 +87,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmHome.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\frmHome.cs",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\frmHome.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\Model\\frmHome.cs",
-              "ToolTip": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\frmHome.cs [Design]",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\frmHome.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\Model\\frmHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T04:09:09.89Z",
@@ -101,9 +101,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Program.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Program.cs",
               "RelativeToolTip": "CoffeeManagement\\Program.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAmwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,37 +111,40 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "formMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\formMain.cs",
-              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\formMain.cs",
-              "ToolTip": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\formMain.cs [Design]",
-              "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\FormLogin.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\FormLogin.cs [Design]",
+              "RelativeToolTip": "CoffeeManagement\\Model\\FormLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T04:07:25.367Z",
+              "WhenOpened": "2024-12-22T04:13:16.936Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "formMain.cs",
-              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\formMain.cs",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\formMain.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\Model\\formMain.cs",
-              "ToolTip": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\formMain.cs",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\formMain.cs",
               "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAowCgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T03:59:33.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T03:59:33.734Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\FormLogin.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\Model\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\phant\\Desktop\\CM1\\CoffeeManagement\\Model\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\phant\\Desktop\\CM\\CoffeeManagement\\Model\\FormLogin.cs",
               "RelativeToolTip": "CoffeeManagement\\Model\\FormLogin.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAIwDQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

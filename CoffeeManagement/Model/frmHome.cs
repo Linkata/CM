@@ -15,40 +15,21 @@ namespace CoffeeManagement
 {
     public partial class frmHome : Form
     {
-        private readonly RevenueTransaction _revenueTransaction;
+        private readonly RevenueTransaction _revenueTransaction = new RevenueTransaction(MainClass.GetConnectionString());
         public frmHome()
         {
             InitializeComponent();
-            _revenueTransaction = new RevenueTransaction(MainClass.GetConnectionString());
-        }
-
-        private void btnShowRevenue_Click(object sender, EventArgs e)
-        {
-            DateTime startDate = dateTimePickerStart.Value;
-            DateTime endDate = dateTimePickerEnd.Value;
+            DataTable productSalesData = _revenueTransaction.GetProductSalesData();
+            DataTable revenueData = _revenueTransaction.GetProcessedRevenueData(DateTime.Parse("10/1/2024"), DateTime.Now);
 
             try
             {
-                // Lấy dữ liệu doanh thu thông qua tầng TL
-                DataTable revenueData = _revenueTransaction.GetProcessedRevenueData(startDate, endDate);
                 DisplayGunaChart(revenueData);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Lỗi khi hiển thị doanh thu: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-        private void btnShowProductSales_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                // Lấy dữ liệu doanh số sản phẩm thông qua tầng TL
-                DataTable productSalesData = _revenueTransaction.GetProductSalesData();
                 DisplayPieChart(productSalesData);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi khi hiển thị doanh số: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Lỗi khi hiển thị doanh thu: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void DisplayGunaChart(DataTable dt)
@@ -79,11 +60,15 @@ namespace CoffeeManagement
 
             var pieSeries = new Guna.Charts.WinForms.GunaPieDataset
             {
-                Label = "Doanh số"
+                Label = "Doanh số sản phẩm"
+
             };
 
             foreach (DataRow row in dt.Rows)
             {
+                //string productName = row["pName"].ToString();
+                //double sales = Convert.ToDouble(row["Tổng doanh số"]);
+                //pieSeries.DataPoints.Add(productName, sales);
                 string productName = row["pName"].ToString();
                 double sales = Convert.ToDouble(row["Tổng doanh số"]);
                 pieSeries.DataPoints.Add(productName, sales);
@@ -91,6 +76,11 @@ namespace CoffeeManagement
 
             guna2ChartSale.Datasets.Add(pieSeries);
             guna2ChartSale.Update();
+        }
+
+        private void frmHome_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

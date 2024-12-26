@@ -232,6 +232,18 @@
     <Compile Include="View\frmStaffAdd.Designer.cs">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\frmStorehouseAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmStorehouseAdd.Designer.cs">
+      <DependentUpon>frmStorehouseAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmStorehouseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmStorehouseView.Designer.cs">
+      <DependentUpon>frmStorehouseView.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\frmTableAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -339,6 +351,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmStaffAdd.resx">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmStorehouseAdd.resx">
+      <DependentUpon>frmStorehouseAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmStorehouseView.resx">
+      <DependentUpon>frmStorehouseView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmTableAdd.resx">
       <DependentUpon>frmTableAdd.cs</DependentUpon>
@@ -532,6 +550,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CM.mdf</DependentUpon>
     </Content>
+    <Content Include="Resources\warehouse.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BL\BL.csproj">

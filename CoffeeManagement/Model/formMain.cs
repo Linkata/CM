@@ -34,6 +34,7 @@ namespace CoffeeManagement
                 this.Enabled = true;
                 lblUser.Text = frmLogin.CurrentUsername;
                 Instance = this;
+                AddControls(new frmHome());
             }
             else
             {
@@ -93,6 +94,11 @@ namespace CoffeeManagement
         private void btnHome_Click(object sender, EventArgs e)
         {
             AddControls(new frmHome());
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmStorehouseView());
         }
     }
 }
