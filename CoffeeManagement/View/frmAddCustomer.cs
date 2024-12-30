@@ -41,5 +41,32 @@ namespace CoffeeManagement.Model
         {
             driverID = Convert.ToInt32(cbDriver.SelectedValue);
         }
+
+        private void txtPhone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Show the label as an alert on screen
+            label2.Text = "Lưu thành công!";  // Set the alert text
+            label2.Visible = true;            // Make the label visible
+
+            // Optionally, hide the label after a few seconds
+            Timer timer = new Timer();
+            timer.Interval = 3000; // 3 seconds
+            timer.Tick += (s, args) =>
+            {
+                label2.Visible = false; // Hide the label after 3 seconds
+                timer.Stop();             // Stop the timer
+            };
+            timer.Start(); // Start the timer
+        }
+
+
     }
 }

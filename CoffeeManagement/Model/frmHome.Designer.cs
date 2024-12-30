@@ -59,14 +59,10 @@
             Guna.Charts.WinForms.Tick tick6 = new Guna.Charts.WinForms.Tick();
             Guna.Charts.WinForms.ChartFont chartFont16 = new Guna.Charts.WinForms.ChartFont();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnShowRevenue = new Guna.UI2.WinForms.Guna2Button();
-            this.lblDateEnd = new System.Windows.Forms.Label();
-            this.lblDateStart = new System.Windows.Forms.Label();
-            this.dateTimePickerEnd = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.dateTimePickerStart = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2ChartRevenue = new Guna.Charts.WinForms.GunaChart();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnShowProductSales = new Guna.UI2.WinForms.Guna2Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.guna2ChartSale = new Guna.Charts.WinForms.GunaChart();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -75,87 +71,33 @@
             // guna2Panel1
             // 
             this.guna2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.guna2Panel1.Controls.Add(this.btnShowRevenue);
-            this.guna2Panel1.Controls.Add(this.lblDateEnd);
-            this.guna2Panel1.Controls.Add(this.lblDateStart);
-            this.guna2Panel1.Controls.Add(this.dateTimePickerEnd);
-            this.guna2Panel1.Controls.Add(this.dateTimePickerStart);
+            this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.Controls.Add(this.guna2ChartRevenue);
-            this.guna2Panel1.Location = new System.Drawing.Point(21, 222);
+            this.guna2Panel1.Location = new System.Drawing.Point(15, 14);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(711, 388);
+            this.guna2Panel1.Size = new System.Drawing.Size(711, 361);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // btnShowRevenue
+            // label1
             // 
-            this.btnShowRevenue.AutoRoundedCorners = true;
-            this.btnShowRevenue.BorderRadius = 21;
-            this.btnShowRevenue.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnShowRevenue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnShowRevenue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnShowRevenue.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnShowRevenue.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnShowRevenue.ForeColor = System.Drawing.Color.White;
-            this.btnShowRevenue.Location = new System.Drawing.Point(246, 343);
-            this.btnShowRevenue.Name = "btnShowRevenue";
-            this.btnShowRevenue.Size = new System.Drawing.Size(180, 45);
-            this.btnShowRevenue.TabIndex = 5;
-            this.btnShowRevenue.Text = "Hiển thị doanh thu";
-            this.btnShowRevenue.Click += new System.EventHandler(this.btnShowRevenue_Click);
-            // 
-            // lblDateEnd
-            // 
-            this.lblDateEnd.AutoSize = true;
-            this.lblDateEnd.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblDateEnd.Location = new System.Drawing.Point(363, 16);
-            this.lblDateEnd.Name = "lblDateEnd";
-            this.lblDateEnd.Size = new System.Drawing.Size(117, 23);
-            this.lblDateEnd.TabIndex = 4;
-            this.lblDateEnd.Text = "Ngày kết thúc";
-            // 
-            // lblDateStart
-            // 
-            this.lblDateStart.AutoSize = true;
-            this.lblDateStart.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblDateStart.Location = new System.Drawing.Point(15, 16);
-            this.lblDateStart.Name = "lblDateStart";
-            this.lblDateStart.Size = new System.Drawing.Size(114, 23);
-            this.lblDateStart.TabIndex = 3;
-            this.lblDateStart.Text = "Ngày bắt đầu";
-            // 
-            // dateTimePickerEnd
-            // 
-            this.dateTimePickerEnd.Checked = true;
-            this.dateTimePickerEnd.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dateTimePickerEnd.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dateTimePickerEnd.Location = new System.Drawing.Point(483, 3);
-            this.dateTimePickerEnd.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dateTimePickerEnd.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerEnd.Name = "dateTimePickerEnd";
-            this.dateTimePickerEnd.Size = new System.Drawing.Size(200, 36);
-            this.dateTimePickerEnd.TabIndex = 2;
-            this.dateTimePickerEnd.Value = new System.DateTime(2024, 9, 9, 2, 3, 31, 36);
-            // 
-            // dateTimePickerStart
-            // 
-            this.dateTimePickerStart.Checked = true;
-            this.dateTimePickerStart.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dateTimePickerStart.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dateTimePickerStart.Location = new System.Drawing.Point(135, 3);
-            this.dateTimePickerStart.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dateTimePickerStart.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerStart.Name = "dateTimePickerStart";
-            this.dateTimePickerStart.Size = new System.Drawing.Size(200, 36);
-            this.dateTimePickerStart.TabIndex = 1;
-            this.dateTimePickerStart.Value = new System.DateTime(2024, 9, 9, 2, 3, 31, 36);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(15, 5);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 29);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Doanh thu";
             // 
             // guna2ChartRevenue
             // 
             chartFont1.FontName = "Arial";
             this.guna2ChartRevenue.Legend.LabelFont = chartFont1;
-            this.guna2ChartRevenue.Location = new System.Drawing.Point(19, 45);
+            this.guna2ChartRevenue.Location = new System.Drawing.Point(20, 48);
+            this.guna2ChartRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2ChartRevenue.Name = "guna2ChartRevenue";
-            this.guna2ChartRevenue.Size = new System.Drawing.Size(664, 291);
+            this.guna2ChartRevenue.Size = new System.Drawing.Size(664, 290);
             this.guna2ChartRevenue.TabIndex = 0;
             chartFont2.FontName = "Arial";
             chartFont2.Size = 12;
@@ -182,41 +124,38 @@
             chartFont8.FontName = "Arial";
             tick3.Font = chartFont8;
             this.guna2ChartRevenue.ZAxes.Ticks = tick3;
+            this.guna2ChartRevenue.Load += new System.EventHandler(this.guna2ChartRevenue_Load);
             // 
             // guna2Panel2
             // 
             this.guna2Panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Panel2.Controls.Add(this.btnShowProductSales);
+            this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Controls.Add(this.guna2ChartSale);
-            this.guna2Panel2.Location = new System.Drawing.Point(855, 225);
+            this.guna2Panel2.Location = new System.Drawing.Point(868, 14);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(595, 385);
+            this.guna2Panel2.Size = new System.Drawing.Size(595, 361);
             this.guna2Panel2.TabIndex = 1;
             // 
-            // btnShowProductSales
+            // label2
             // 
-            this.btnShowProductSales.AutoRoundedCorners = true;
-            this.btnShowProductSales.BorderRadius = 21;
-            this.btnShowProductSales.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnShowProductSales.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnShowProductSales.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnShowProductSales.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnShowProductSales.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnShowProductSales.ForeColor = System.Drawing.Color.White;
-            this.btnShowProductSales.Location = new System.Drawing.Point(225, 340);
-            this.btnShowProductSales.Name = "btnShowProductSales";
-            this.btnShowProductSales.Size = new System.Drawing.Size(194, 45);
-            this.btnShowProductSales.TabIndex = 1;
-            this.btnShowProductSales.Text = "Doanh số sản phẩm";
-            this.btnShowProductSales.Click += new System.EventHandler(this.btnShowProductSales_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(23, 11);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(270, 29);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Các sản phẩm bán được";
             // 
             // guna2ChartSale
             // 
             chartFont9.FontName = "Arial";
             this.guna2ChartSale.Legend.LabelFont = chartFont9;
             this.guna2ChartSale.Location = new System.Drawing.Point(27, 42);
+            this.guna2ChartSale.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2ChartSale.Name = "guna2ChartSale";
-            this.guna2ChartSale.Size = new System.Drawing.Size(544, 291);
+            this.guna2ChartSale.Size = new System.Drawing.Size(544, 290);
             this.guna2ChartSale.TabIndex = 0;
             chartFont10.FontName = "Arial";
             chartFont10.Size = 12;
@@ -243,20 +182,24 @@
             chartFont16.FontName = "Arial";
             tick6.Font = chartFont16;
             this.guna2ChartSale.ZAxes.Ticks = tick6;
+            this.guna2ChartSale.Load += new System.EventHandler(this.guna2ChartSale_Load);
             // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1478, 622);
+            this.ClientSize = new System.Drawing.Size(1477, 622);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmHome";
             this.Text = "frmHome";
+            this.Load += new System.EventHandler(this.frmHome_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
+            this.guna2Panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -265,13 +208,9 @@
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.Charts.WinForms.GunaChart guna2ChartRevenue;
-        private Guna.UI2.WinForms.Guna2Button btnShowRevenue;
-        private System.Windows.Forms.Label lblDateEnd;
-        private System.Windows.Forms.Label lblDateStart;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dateTimePickerEnd;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dateTimePickerStart;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Button btnShowProductSales;
         private Guna.Charts.WinForms.GunaChart guna2ChartSale;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

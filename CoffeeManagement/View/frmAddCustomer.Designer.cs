@@ -33,12 +33,15 @@
             this.txtName = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblDriver = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.txtPhone = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.txtPhone = new Guna.UI2.WinForms.Guna2TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lblAlert = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -113,8 +116,18 @@
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(89)))));
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(474, 100);
+            this.guna2Panel1.Size = new System.Drawing.Size(551, 100);
             this.guna2Panel1.TabIndex = 1;
+            // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(503, 3);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox1.TabIndex = 1;
             // 
             // label1
             // 
@@ -156,6 +169,15 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(373, 219);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 16);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "SDT";
+            // 
             // txtPhone
             // 
             this.txtPhone.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -175,33 +197,47 @@
             this.txtPhone.SelectedText = "";
             this.txtPhone.Size = new System.Drawing.Size(199, 36);
             this.txtPhone.TabIndex = 2;
+            this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged);
             // 
-            // label3
+            // button1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "SDT";
+            this.button1.Location = new System.Drawing.Point(361, 310);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 45);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Lưu";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // guna2ControlBox1
+            // lblAlert
             // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(426, 3);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox1.TabIndex = 1;
+            this.lblAlert.AutoSize = true;
+            this.lblAlert.Location = new System.Drawing.Point(238, 368);
+            this.lblAlert.Name = "lblAlert";
+            this.lblAlert.Size = new System.Drawing.Size(0, 16);
+            this.lblAlert.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(238, 368);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 16);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Lưu thành công";
+            this.label2.Visible = false;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // frmAddCustomer
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(474, 380);
+            this.ClientSize = new System.Drawing.Size(551, 445);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.lblAlert);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmAddCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -213,6 +249,7 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -229,5 +266,8 @@
         private System.Windows.Forms.Label label3;
         public Guna.UI2.WinForms.Guna2TextBox txtPhone;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblAlert;
+        private System.Windows.Forms.Label label2;
     }
 }

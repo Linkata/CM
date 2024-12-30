@@ -96,7 +96,8 @@
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.Size = new System.Drawing.Size(180, 52);
             this.guna2Button8.TabIndex = 7;
-            this.guna2Button8.Text = "Cài đặt";
+            this.guna2Button8.Text = "Kho";
+            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
             // guna2Button7
             // 

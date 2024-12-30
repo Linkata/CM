@@ -23,9 +23,10 @@ namespace CoffeeManagement.View
         {
             GetData();
         }
+
         public void GetData()
         {
-            string qry = "Select * From staff where sName like'%" + txtSearch.Text + "%'";
+            string qry = "Select * From staff where sName like N'%" + txtSearch.Text + "%'";
             ListBox lb = new ListBox();
             lb.Items.Add(dgvid);
             lb.Items.Add(dgvName);
@@ -33,13 +34,11 @@ namespace CoffeeManagement.View
             lb.Items.Add(dgvRole);
 
             MainClass.LoadData(qry, guna2DataGridView1, lb);
-
-
         }
+
         public override void btnAdd_Click(object sender, EventArgs e)
         {
-            //frmCategoryAdd frm = new frmCategoryAdd();
-            //frm.ShowDialog();
+            // Open the staff add form to add a new staff member
             MainClass.BlurBackground(new Model.frmStaffAdd());
             GetData();
         }
@@ -48,6 +47,7 @@ namespace CoffeeManagement.View
         {
             GetData();
         }
+
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (guna2DataGridView1.CurrentCell.OwningColumn.Name == "dgvedit")
@@ -59,8 +59,8 @@ namespace CoffeeManagement.View
                 frm.cbRole.Text = Convert.ToString(guna2DataGridView1.CurrentRow.Cells["dgvRole"].Value);
                 MainClass.BlurBackground(frm);
                 GetData();
-
             }
+
             if (guna2DataGridView1.CurrentCell.OwningColumn.Name == "dgvdel")
             {
                 guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.Question;
@@ -76,9 +76,7 @@ namespace CoffeeManagement.View
                     guna2MessageDialog1.Show("Delete successfully");
                     GetData();
                 }
-
             }
-
         }
     }
 }
