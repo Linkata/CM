@@ -37,6 +37,7 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtQuantity = new System.Windows.Forms.TextBox();
             this.txtUnit = new System.Windows.Forms.TextBox();
+            this.txtSupplier = new System.Windows.Forms.TextBox();
             this.txtSupplierPhone = new System.Windows.Forms.TextBox();
             this.txtExDate = new System.Windows.Forms.TextBox();
             this.cbSupplier = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -160,6 +161,13 @@
             this.txtUnit.Size = new System.Drawing.Size(145, 30);
             this.txtUnit.TabIndex = 10;
             // 
+            // txtSupplier
+            // 
+            this.txtSupplier.Location = new System.Drawing.Point(53, 358);
+            this.txtSupplier.Name = "txtSupplier";
+            this.txtSupplier.Size = new System.Drawing.Size(264, 30);
+            this.txtSupplier.TabIndex = 11;
+            // 
             // txtSupplierPhone
             // 
             this.txtSupplierPhone.Location = new System.Drawing.Point(377, 358);
@@ -198,6 +206,7 @@
             this.Controls.Add(this.cbSupplier);
             this.Controls.Add(this.txtExDate);
             this.Controls.Add(this.txtSupplierPhone);
+            this.Controls.Add(this.txtSupplier);
             this.Controls.Add(this.txtUnit);
             this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.txtName);
@@ -220,6 +229,7 @@
             this.Controls.SetChildIndex(this.txtName, 0);
             this.Controls.SetChildIndex(this.txtQuantity, 0);
             this.Controls.SetChildIndex(this.txtUnit, 0);
+            this.Controls.SetChildIndex(this.txtSupplier, 0);
             this.Controls.SetChildIndex(this.txtSupplierPhone, 0);
             this.Controls.SetChildIndex(this.txtExDate, 0);
             this.Controls.SetChildIndex(this.cbSupplier, 0);
@@ -243,6 +253,7 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.TextBox txtUnit;
+        private System.Windows.Forms.TextBox txtSupplier;
         private System.Windows.Forms.TextBox txtSupplierPhone;
         private System.Windows.Forms.TextBox txtExDate;
         private Guna.UI2.WinForms.Guna2ComboBox cbSupplier;

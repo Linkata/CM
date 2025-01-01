@@ -22,7 +22,7 @@ namespace CoffeeManagement.Model
             materialBL = new MaterialBL();
             materialBL = new MaterialBL(); LoadSuppliers();
         }
-        
+
         public int MaterialID { get; set; }
 
         public void SetMaterial(MaterialTL material)
@@ -39,7 +39,7 @@ namespace CoffeeManagement.Model
 
 
         private void btnSave_Click(object sender, EventArgs e)
-        {
+            {
             try
             { // Kiểm tra hoặc thêm SupplierID
                 int supplierID = materialBL.GetOrCreateSupplierID(cbSupplier.Text, txtSupplierPhone.Text);
@@ -62,7 +62,7 @@ namespace CoffeeManagement.Model
                 {
                     materialBL.AddMaterial(material); // Thêm mới nếu không có ID 
                 }
-                DialogResult = DialogResult.OK; 
+                DialogResult = DialogResult.OK;
                 Close();
             }
             catch (Exception ex)
@@ -71,6 +71,7 @@ namespace CoffeeManagement.Model
 
             }
         }
+
         private void btnCancel_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;

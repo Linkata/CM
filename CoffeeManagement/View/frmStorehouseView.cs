@@ -33,20 +33,23 @@ namespace CoffeeManagement.View
 
         private void LoadMaterials()
         {
-            var materials = materialBL.GetAllMaterials();
-            guna2DataGridView1.DataSource = null;
-            guna2DataGridView1.DataSource = materials;
+            try
+            {
+                
+                var materials = materialBL.GetAllMaterials();
+                guna2DataGridView1.DataSource = null;
+                guna2DataGridView1.DataSource = materials;
             guna2DataGridView1.AutoResizeRows();
-        }
+            }
         private DataGridViewImageColumn CustomImage(string imageName)
-        {
+            {
             string path = Application.StartupPath;
             var imagePath = Directory.GetParent(path);
             DataGridViewImageColumn imageColumn = new DataGridViewImageColumn();
             imageColumn.Image = Image.FromFile(path + "\\Icon\\" + imageName);
             imageColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
             return imageColumn;
-        }
+            }
 
         private DataGridView customDGV(DataGridView dgv)
         {

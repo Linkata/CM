@@ -74,6 +74,7 @@
             // 
             // label1
             // 
+<<<<<<< HEAD
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.ForeColor = System.Drawing.Color.White;
@@ -213,6 +214,33 @@
             this.btnStorehouse.TabIndex = 7;
             this.btnStorehouse.Text = "Kho";
             this.btnStorehouse.Click += new System.EventHandler(this.btnStorehouse_Click);
+=======
+            this.guna2Button8.AutoRoundedCorners = true;
+            this.guna2Button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(89)))));
+            this.guna2Button8.BorderRadius = 20;
+            this.guna2Button8.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(85)))), ((int)(((byte)(126)))));
+            this.guna2Button8.CustomizableEdges.BottomRight = false;
+            this.guna2Button8.CustomizableEdges.TopRight = false;
+            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button8.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button8.ForeColor = System.Drawing.Color.White;
+            this.guna2Button8.Image = global::CoffeeManagement.Properties.Resources.settings;
+            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button8.ImageOffset = new System.Drawing.Point(5, 1);
+            this.guna2Button8.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button8.Location = new System.Drawing.Point(16, 506);
+            this.guna2Button8.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button8.Name = "guna2Button8";
+            this.guna2Button8.Size = new System.Drawing.Size(144, 42);
+            this.guna2Button8.TabIndex = 7;
+            this.guna2Button8.Text = "Kho";
+            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
+>>>>>>> ba140a9410a6b024baf0c87a62684f7ae54a59aa
             // 
             // guna2Button7
             // 

@@ -125,6 +125,7 @@
             this.txtPass.Size = new System.Drawing.Size(268, 48);
             this.txtPass.TabIndex = 1;
             this.txtPass.UseSystemPasswordChar = true;
+            this.txtPass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPass_KeyDown);
             // 
             // label2
             // 
@@ -152,7 +153,6 @@
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            this.btnLogin.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnLogin_KeyDown);
             // 
             // btnExit
             // 
