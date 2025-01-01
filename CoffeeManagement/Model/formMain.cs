@@ -88,5 +88,15 @@ namespace CoffeeManagement
         {
             AddControls(new frmStorehouseView());
         }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+            AddControls(new frmHome());
+        }
+
+        private void btnSupplier_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmSupplierView());
+        }
     }
 }

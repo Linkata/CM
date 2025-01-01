@@ -85,6 +85,10 @@
     <Reference Include="Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Primitives.8.0.0\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -129,11 +133,15 @@
   <ItemGroup>
     <Compile Include="Bl\MaterialBL.cs" />
     <Compile Include="Bl\RevenueLogic.cs" />
+    <Compile Include="Bl\StorehouseBL.cs" />
+    <Compile Include="Bl\SupplierBL.cs" />
     <Compile Include="Bl\UserBusiness.cs" />
     <Compile Include="Bl\UserService.cs" />
     <Compile Include="DL\DatabaseHelper.cs" />
     <Compile Include="DL\MaterialDL.cs" />
     <Compile Include="DL\RevenueModel.cs" />
+    <Compile Include="DL\StorehouseDL.cs" />
+    <Compile Include="DL\SupplierDL.cs" />
     <Compile Include="DL\UserDAL.cs" />
     <Compile Include="Model\FormLogin.cs">
       <SubType>Form</SubType>
@@ -162,6 +170,8 @@
     <Compile Include="MainClass.cs" />
     <Compile Include="TL\MaterialTL.cs" />
     <Compile Include="TL\RevenueTransaction.cs" />
+    <Compile Include="TL\StorehouseHistoryTL.cs" />
+    <Compile Include="TL\SupplierTL.cs" />
     <Compile Include="TL\UserTransaction.cs" />
     <Compile Include="View\frmAddCustomer.cs">
       <SubType>Form</SubType>
@@ -211,11 +221,29 @@
     <Compile Include="View\frmStorehouseAdd.Designer.cs">
       <DependentUpon>frmStorehouseAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\frmStorehouseHistoryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmStorehouseHistoryView.Designer.cs">
+      <DependentUpon>frmStorehouseHistoryView.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\frmStorehouseView.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\frmStorehouseView.Designer.cs">
       <DependentUpon>frmStorehouseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSupplierAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSupplierAdd.Designer.cs">
+      <DependentUpon>frmSupplierAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSupplierView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSupplierView.Designer.cs">
+      <DependentUpon>frmSupplierView.cs</DependentUpon>
     </Compile>
     <Compile Include="View\frmTableAdd.cs">
       <SubType>Form</SubType>
@@ -328,8 +356,17 @@
     <EmbeddedResource Include="View\frmStorehouseAdd.resx">
       <DependentUpon>frmStorehouseAdd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\frmStorehouseHistoryView.resx">
+      <DependentUpon>frmStorehouseHistoryView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\frmStorehouseView.resx">
       <DependentUpon>frmStorehouseView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSupplierAdd.resx">
+      <DependentUpon>frmSupplierAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSupplierView.resx">
+      <DependentUpon>frmSupplierView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmTableAdd.resx">
       <DependentUpon>frmTableAdd.cs</DependentUpon>
@@ -523,6 +560,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CM.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Supplier.png" />
     <None Include="Resources\warehouse.png" />
   </ItemGroup>
   <ItemGroup />

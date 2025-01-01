@@ -78,8 +78,74 @@ namespace CoffeeManagement.DL
                     command.ExecuteNonQuery();
                 }
             }
+            // Lấy lại MaterialID vừa thêm
+            int materialID = GetMaterialID(material.Tên_nguyên_liệu, material.SupplierID);
+
+            // Thêm lịch sử nhập kho
+            AddWarehouseHistory(materialID, material);
+        }
+        
+        private int GetMaterialID(string materialName, int supplierID)
+        {
+            var query = "SELECT MaterialID FROM Materials WHERE MaterialName = @MaterialName AND SupplierID = @SupplierID";
+            using (var connection = new SqlConnection(DatabaseHelper.GetConnectionString()))
+            {
+                using (var command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@MaterialName", materialName);
+                    command.Parameters.AddWithValue("@SupplierID", supplierID);
+
+                    connection.Open();
+                    return (int)command.ExecuteScalar();
+                }
+            }
         }
 
+        private void AddWarehouseHistory(int materialID, MaterialTL material)
+        {
+            var query = "INSERT INTO WarehouseHistory (MaterialID, SupplierID, Quantity, EntryDate) " +
+                        "VALUES (@MaterialID, @SupplierID, @Quantity, @EntryDate)";
+            using (var connection = new SqlConnection(DatabaseHelper.GetConnectionString()))
+            {
+                using (var command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@MaterialID", materialID);
+                    command.Parameters.AddWithValue("@SupplierID", material.SupplierID);
+                    command.Parameters.AddWithValue("@Quantity", material.Số_lượng);
+                    command.Parameters.AddWithValue("@EntryDate", DateTime.Now);
+                    
 
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public int DeleteMaterial(int materialID) { 
+            var query = "DELETE FROM Materials WHERE MaterialID = @MaterialID"; 
+            using (var connection = new SqlConnection(DatabaseHelper.GetConnectionString())) { 
+                using (var command = new SqlCommand(query, connection)) { 
+                    command.Parameters.AddWithValue("@MaterialID", materialID); 
+                    connection.Open(); return command.ExecuteNonQuery(); 
+                } 
+            } 
+        }
+        public int UpdMaterial(MaterialTL material) { 
+            var query = "UPDATE Materials SET MaterialName = @MaterialName, " +
+                "Quantity = @Quantity, Unit = @Unit, " +
+                "ExpiryDate = @ExpiryDate, SupplierID = @SupplierID " + "WHERE MaterialID = @MaterialID"; 
+            using (var connection = new SqlConnection(DatabaseHelper.GetConnectionString())) { 
+                using (var command = new SqlCommand(query, connection)) 
+                { command.Parameters.AddWithValue("@MaterialID", material.ID); 
+                    command.Parameters.AddWithValue("@MaterialName", material.Tên_nguyên_liệu); 
+                    command.Parameters.AddWithValue("@Quantity", material.Số_lượng); 
+                    command.Parameters.AddWithValue("@Unit", material.Đơn_vị); 
+                    command.Parameters.AddWithValue("@ExpiryDate", material.Hạn_sử_dụng); 
+                    command.Parameters.AddWithValue("@SupplierID", material.SupplierID); 
+                    connection.Open(); 
+                    return command.ExecuteNonQuery(); 
+                } 
+            } 
+        }
     }
 }

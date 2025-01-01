@@ -24,7 +24,30 @@ namespace CoffeeManagement.Bl
         {
             return materialDAL.GetMaterials();
         }
-        
+
+        public List<SupplierTL> GetSuppliers()
+        {
+            var suppliers = new List<SupplierTL>();
+            string query = @"SELECT SupplierID, SupplierName, SupplierPhone FROM Suppliers";
+            using (var connection = new SqlConnection(DatabaseHelper.GetConnectionString()))
+            using (var command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        suppliers.Add(new SupplierTL
+                        {
+                            ID = reader.GetInt32(reader.GetOrdinal("SupplierID")),
+                            Tên_nhà_cung_cấp = reader.GetString(reader.GetOrdinal("SupplierName")),
+                            SDT_nhà_cung_cấp = reader.GetString(reader.GetOrdinal("SupplierPhone")),
+                        });
+                    }
+                }
+            }
+            return suppliers;
+        }
 
         // Lấy danh sách nguyên vật liệu sắp hết hạn (MaterialTL)
         public List<MaterialTL> GetExpiringMaterials()
@@ -40,35 +63,66 @@ namespace CoffeeManagement.Bl
                 throw new Exception("Quantity cannot be negative.");
             materialDAL.AddMaterial(material);
         }
+        public int UpdMaterial(MaterialTL material)
+        {
+            try
+            {
+                return new MaterialDL().UpdMaterial(material);
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
+        public int DeleteMaterial(int materialID)
+        {
+            try
+            {
+                return new MaterialDL().DeleteMaterial(materialID);
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
         public int GetOrCreateSupplierID(string supplierName, string supplierPhone)
         {
-            string queryCheck = "SELECT SupplierID FROM Suppliers WHERE SupplierName = @SupplierName AND SupplierPhone = @SupplierPhone";
-            string queryInsert = "INSERT INTO Suppliers (SupplierName, SupplierPhone) OUTPUT INSERTED.SupplierID VALUES (@SupplierName, @SupplierPhone)";
+            int supplierID = -1;
 
+            // Tạo kết nối và truy vấn để kiểm tra xem nhà cung cấp đã tồn tại chưa
             using (var connection = new SqlConnection(DatabaseHelper.GetConnectionString()))
             {
-                using (var command = new SqlCommand(queryCheck, connection))
-                {
-                    command.Parameters.AddWithValue("@SupplierName", supplierName);
-                    command.Parameters.AddWithValue("@SupplierPhone", supplierPhone);
+                connection.Open();
 
-                    connection.Open();
-                    var result = command.ExecuteScalar();
+                // Truy vấn để kiểm tra nhà cung cấp
+                string checkQuery = @"SELECT SupplierID FROM Suppliers WHERE SupplierName = @SupplierName AND SupplierPhone = @SupplierPhone";
+                using (var checkCommand = new SqlCommand(checkQuery, connection))
+                {
+                    checkCommand.Parameters.AddWithValue("@SupplierName", supplierName);
+                    checkCommand.Parameters.AddWithValue("@SupplierPhone", supplierPhone);
+
+                    var result = checkCommand.ExecuteScalar();
                     if (result != null)
                     {
-                        return (int)result; // Trả về SupplierID nếu đã tồn tại
+                        supplierID = Convert.ToInt32(result);
                     }
                 }
 
-                using (var command = new SqlCommand(queryInsert, connection))
+                // Nếu nhà cung cấp chưa tồn tại, thêm mới nhà cung cấp và lấy SupplierID
+                if (supplierID == -1)
                 {
-                    command.Parameters.AddWithValue("@SupplierName", supplierName);
-                    command.Parameters.AddWithValue("@SupplierPhone", supplierPhone);
+                    string insertQuery = @"INSERT INTO Suppliers (SupplierName, SupplierPhone) OUTPUT INSERTED.SupplierID VALUES (@SupplierName, @SupplierPhone)";
+                    using (var insertCommand = new SqlCommand(insertQuery, connection))
+                    {
+                        insertCommand.Parameters.AddWithValue("@SupplierName", supplierName);
+                        insertCommand.Parameters.AddWithValue("@SupplierPhone", supplierPhone);
 
-                    return (int)command.ExecuteScalar(); // Trả về SupplierID mới tạo
+                        supplierID = (int)insertCommand.ExecuteScalar();
+                    }
                 }
             }
-        }
 
+            return supplierID;
+        }
     }
 }

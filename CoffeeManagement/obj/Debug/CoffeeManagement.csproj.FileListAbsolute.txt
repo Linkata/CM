@@ -261,3 +261,6 @@ C:\Users\HOAI LINH\Source\Repos\CM\CoffeeManagement\obj\Debug\CoffeeManagement.e
 C:\Users\HOAI LINH\Source\Repos\CM\CoffeeManagement\obj\Debug\CoffeeManagement.pdb
 C:\Users\HOAI LINH\Source\Repos\CM\CoffeeManagement\obj\Debug\CoffeeManagement.View.frmStorehouseView.resources
 C:\Users\HOAI LINH\Source\Repos\CM\CoffeeManagement\obj\Debug\CoffeeManagement.Model.frmStorehouseAdd.resources
+C:\Users\HOAI LINH\Source\Repos\CM\CoffeeManagement\obj\Debug\CoffeeManagement.View.frmSupplierAdd.resources
+C:\Users\HOAI LINH\Source\Repos\CM\CoffeeManagement\obj\Debug\CoffeeManagement.View.frmSupplierView.resources
+C:\Users\HOAI LINH\Source\Repos\CM\CoffeeManagement\obj\Debug\CoffeeManagement.View.frmStorehouseHistoryView.resources

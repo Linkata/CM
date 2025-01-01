@@ -3,24 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmsupplierview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmsupplierview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmsupplieradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmsupplieradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\bl\\supplierbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\bl\\supplierbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmstorehouseadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmstorehouseadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\bl\\materialbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\bl\\materialbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\dl\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\dl\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmsupplieradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmsupplieradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\view\\frmstorehouseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmstorehouseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmstorehouseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmstorehouseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmstorehouseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\view\\frmstorehouseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmstorehouseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmsupplierview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmsupplierview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\dl\\supplierdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\dl\\supplierdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\dl\\materialdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\dl\\materialdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmstaffadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmstaffadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\tl\\suppliertl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\tl\\suppliertl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\view\\frmstorehouseadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmstorehouseadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\view\\frmcategoryadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\view\\frmcategoryadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|c:\\users\\hoai linh\\source\\repos\\cm\\coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\view\\frmstorehouseview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,14 +94,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HOAI LINH\\AppData\\Local\\Temp\\5vern00u..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|C:\\Users\\HOAI LINH\\source\\repos\\CM\\coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8B6B5C3D-9B8B-4E46-915A-7E826D7149F7}|CoffeeManagement\\CoffeeManagement.csproj|solutionrelative:coffeemanagement\\model\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -65,8 +109,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmStorehouseAdd.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseAdd.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmStorehouseAdd.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseAdd.cs",
+              "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseAdd.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:14:03.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSupplierAdd.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmSupplierAdd.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmSupplierAdd.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmSupplierAdd.cs*",
+              "RelativeToolTip": "CoffeeManagement\\View\\frmSupplierAdd.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAD4vxoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:13:51.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaterialBL.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Bl\\MaterialBL.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\Bl\\MaterialBL.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Bl\\MaterialBL.cs",
+              "RelativeToolTip": "CoffeeManagement\\Bl\\MaterialBL.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAwwH0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:02:18.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SupplierBL.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Bl\\SupplierBL.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\Bl\\SupplierBL.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Bl\\SupplierBL.cs",
+              "RelativeToolTip": "CoffeeManagement\\Bl\\SupplierBL.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwDIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:02:12.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmSupplierView.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmSupplierView.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmSupplierView.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmSupplierView.cs",
+              "RelativeToolTip": "CoffeeManagement\\View\\frmSupplierView.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAwwHAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:10:08.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmSupplierAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmSupplierAdd.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmSupplierAdd.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmSupplierAdd.cs [Design]*",
+              "RelativeToolTip": "CoffeeManagement\\View\\frmSupplierAdd.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:14:58.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmSupplierView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmSupplierView.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmSupplierView.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmSupplierView.cs [Design]",
+              "RelativeToolTip": "CoffeeManagement\\View\\frmSupplierView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:10:06.762Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -93,74 +226,154 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmStorehouseView.cs",
-              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseView.cs",
-              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmStorehouseView.cs",
-              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseView.cs",
-              "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseView.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAUwCoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T10:57:29.425Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MaterialBL.cs",
-              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Bl\\MaterialBL.cs",
-              "RelativeDocumentMoniker": "CoffeeManagement\\Bl\\MaterialBL.cs",
-              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Bl\\MaterialBL.cs",
-              "RelativeToolTip": "CoffeeManagement\\Bl\\MaterialBL.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T11:29:37.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\DL\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "CoffeeManagement\\DL\\DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\DL\\DatabaseHelper.cs",
-              "RelativeToolTip": "CoffeeManagement\\DL\\DatabaseHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:55:27.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "frmStorehouseView.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseView.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmStorehouseView.cs",
               "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseView.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:57:17.312Z"
+              "WhenOpened": "2025-01-01T18:51:14.191Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "frmStorehouseView.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseView.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmStorehouseView.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseView.cs",
+              "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseView.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:07:52.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MaterialDL.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\DL\\MaterialDL.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\DL\\MaterialDL.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\DL\\MaterialDL.cs",
+              "RelativeToolTip": "CoffeeManagement\\DL\\MaterialDL.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwGkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:04:22.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainClass.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\MainClass.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\MainClass.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\MainClass.cs",
+              "RelativeToolTip": "CoffeeManagement\\MainClass.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwEwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:48:22.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SupplierDL.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\DL\\SupplierDL.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\DL\\SupplierDL.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\DL\\SupplierDL.cs",
+              "RelativeToolTip": "CoffeeManagement\\DL\\SupplierDL.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwGMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T17:48:34.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmStaffAdd.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStaffAdd.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmStaffAdd.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStaffAdd.cs",
+              "RelativeToolTip": "CoffeeManagement\\View\\frmStaffAdd.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T19:49:54.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SupplierTL.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\TL\\SupplierTL.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\TL\\SupplierTL.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\TL\\SupplierTL.cs",
+              "RelativeToolTip": "CoffeeManagement\\TL\\SupplierTL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T17:03:28.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "frmStorehouseAdd.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseAdd.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmStorehouseAdd.cs",
               "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseAdd.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseAdd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T11:05:34.658Z"
+              "WhenOpened": "2024-12-21T11:05:34.658Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
+              "Title": "frmCategoryAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmCategoryAdd.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmCategoryAdd.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmCategoryAdd.cs [Design]",
+              "RelativeToolTip": "CoffeeManagement\\View\\frmCategoryAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T16:28:56.872Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "formMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\formMain.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\formMain.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\formMain.cs [Design]",
+              "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T16:21:16.784Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "formMain.cs",
+              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\formMain.cs",
+              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\formMain.cs",
+              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\formMain.cs",
+              "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAD4v2UAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:54:56.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "frmStorehouseView.Designer.cs",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\View\\frmStorehouseView.Designer.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\View\\frmStorehouseView.Designer.cs",
@@ -168,11 +381,12 @@
               "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseView.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:25:49.76Z"
+              "WhenOpened": "2024-12-21T12:25:49.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "RevenueModel.cs",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\DL\\RevenueModel.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\DL\\RevenueModel.cs",
@@ -184,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "RevenueTransaction.cs",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\TL\\RevenueTransaction.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\TL\\RevenueTransaction.cs",
@@ -196,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "UserTransaction.cs",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\TL\\UserTransaction.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\TL\\UserTransaction.cs",
@@ -208,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "SQLQuery1.sql ",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\AppData\\Local\\Temp\\5vern00u..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\5vern00u..sql",
@@ -218,30 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "formMain.cs",
-              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\formMain.cs",
-              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\formMain.cs",
-              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\formMain.cs",
-              "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAQwFgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T10:54:56.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "formMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\formMain.cs",
-              "RelativeDocumentMoniker": "CoffeeManagement\\Model\\formMain.cs",
-              "ToolTip": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\formMain.cs [Design]",
-              "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:02:00.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\appsettings.json",
               "RelativeDocumentMoniker": "CoffeeManagement\\appsettings.json",
@@ -253,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "FormLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HOAI LINH\\source\\repos\\CM\\CoffeeManagement\\Model\\FormLogin.cs",
               "RelativeDocumentMoniker": "CoffeeManagement\\Model\\FormLogin.cs",

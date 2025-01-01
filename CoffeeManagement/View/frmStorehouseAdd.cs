@@ -20,40 +20,75 @@ namespace CoffeeManagement.Model
         {
             InitializeComponent();
             materialBL = new MaterialBL();
+            materialBL = new MaterialBL(); LoadSuppliers();
         }
+        
+        public int MaterialID { get; set; }
+
+        public void SetMaterial(MaterialTL material)
+        {
+            MaterialID = material.ID;
+            txtName.Text = material.Tên_nguyên_liệu;
+            txtQuantity.Text = material.Số_lượng.ToString();
+            txtUnit.Text = material.Đơn_vị;
+            txtExDate.Text = material.Hạn_sử_dụng.ToString("dd/MM/yyyy");
+            cbSupplier.Text = material.Tên_nhà_cung_cấp;
+            txtSupplierPhone.Text = material.SDT_nhà_cung_cấp;
+        }
+        
+
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
-            {
-                // Kiểm tra hoặc thêm SupplierID
-                int supplierID = materialBL.GetOrCreateSupplierID(txtSupplier.Text, txtSupplierPhone.Text);
+            { // Kiểm tra hoặc thêm SupplierID
+                int supplierID = materialBL.GetOrCreateSupplierID(cbSupplier.Text, txtSupplierPhone.Text);
                 var material = new MaterialTL
                 {
+                    ID = this.MaterialID,
                     Tên_nguyên_liệu = txtName.Text,
                     Số_lượng = int.Parse(txtQuantity.Text),
                     Đơn_vị = txtUnit.Text,
                     Hạn_sử_dụng = DateTime.ParseExact(txtExDate.Text, "dd/MM/yyyy", null),
-                    Tên_nhà_cung_cấp = txtSupplier.Text,
+                    Tên_nhà_cung_cấp = cbSupplier.Text,
                     SDT_nhà_cung_cấp = txtSupplierPhone.Text,
                     SupplierID = supplierID
                 };
-
-                materialBL.AddMaterial(material);
-                MessageBox.Show("Material added successfully with Supplier ID: " + supplierID);
-                DialogResult = DialogResult.OK;
+                if (material.ID > 0)
+                {
+                    materialBL.UpdMaterial(material);
+                }// Cập nhật nếu có ID }
+                else
+                {
+                    materialBL.AddMaterial(material); // Thêm mới nếu không có ID 
+                }
+                DialogResult = DialogResult.OK; 
                 Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred while adding material: " + ex.Message);
+                MessageBox.Show("An error occurred while saving material: " + ex.Message);
+
             }
         }
-
         private void btnCancel_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
             Close();
+        }
+        private void LoadSuppliers()
+        {
+            var suppliers = materialBL.GetSuppliers();
+            cbSupplier.DataSource = suppliers;
+            cbSupplier.DisplayMember = "Tên_nhà_cung_cấp";
+            cbSupplier.ValueMember = "ID";
+        }
+        private void cbSupplier_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbSupplier.SelectedItem is SupplierTL selectedSupplier)
+            {
+                txtSupplierPhone.Text = selectedSupplier.SDT_nhà_cung_cấp;
+            }
         }
     }
 }
