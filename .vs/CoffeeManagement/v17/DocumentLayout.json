@@ -104,7 +104,8 @@
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM5\\CoffeeManagement\\Model\\FormLogin.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\Model\\FormLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:21:42.938Z"
+              "WhenOpened": "2024-12-26T08:21:42.938Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -114,7 +115,7 @@
               "RelativeDocumentMoniker": "CoffeeManagement\\Model\\frmHome.cs",
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM5\\CoffeeManagement\\Model\\frmHome.cs",
               "RelativeToolTip": "CoffeeManagement\\Model\\frmHome.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T08:14:17.73Z",
               "EditorCaption": ""
@@ -128,7 +129,8 @@
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM5\\CoffeeManagement\\Model\\frmHome.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\Model\\frmHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:11:00.216Z"
+              "WhenOpened": "2024-12-26T08:11:00.216Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -151,7 +153,8 @@
               "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAIAwwCQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:05:08.647Z"
+              "WhenOpened": "2024-12-26T08:05:08.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -162,7 +165,8 @@
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM5\\CoffeeManagement\\Model\\formMain.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\Model\\formMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:04:42.217Z"
+              "WhenOpened": "2024-12-26T08:04:42.217Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -174,7 +178,8 @@
               "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseAdd.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowBsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:35:19.755Z"
+              "WhenOpened": "2024-12-26T07:35:19.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -186,7 +191,8 @@
               "RelativeToolTip": "DL\\DataProvider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:44:19.102Z"
+              "WhenOpened": "2024-12-26T07:44:19.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -198,7 +204,8 @@
               "RelativeToolTip": "DL\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-26T07:52:40.894Z"
+              "WhenOpened": "2024-12-26T07:52:40.894Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -210,7 +217,8 @@
               "RelativeToolTip": "TL\\MaterialTL.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:42:24.34Z"
+              "WhenOpened": "2024-12-26T07:42:24.34Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -221,7 +229,8 @@
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM5\\CoffeeManagement\\View\\frmStorehouseView.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:39:21.216Z"
+              "WhenOpened": "2024-12-26T07:39:21.216Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -232,7 +241,8 @@
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM5\\CoffeeManagement\\View\\frmStorehouseAdd.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseAdd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:36:25.642Z"
+              "WhenOpened": "2024-12-26T07:36:25.642Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -244,7 +254,8 @@
               "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseView.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAQwDUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:37:06.236Z"
+              "WhenOpened": "2024-12-26T07:37:06.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -256,7 +267,8 @@
               "RelativeToolTip": "CoffeeManagement\\View\\frmStorehouseAdd.Designer.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAAEEAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:36:14.959Z"
+              "WhenOpened": "2024-12-26T07:36:14.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -280,7 +292,8 @@
               "RelativeToolTip": "DL\\MaterialDL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:41:53.737Z"
+              "WhenOpened": "2024-12-26T07:41:53.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -292,7 +305,8 @@
               "RelativeToolTip": "DL\\LoginDL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:44:11.766Z"
+              "WhenOpened": "2024-12-26T07:44:11.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -304,7 +318,8 @@
               "RelativeToolTip": "DL\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:56:57.735Z"
+              "WhenOpened": "2024-12-26T07:56:57.735Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -315,7 +330,8 @@
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM5\\CoffeeManagement\\SampleAdd.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\SampleAdd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:39:14.224Z"
+              "WhenOpened": "2024-12-26T07:39:14.224Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -326,7 +342,8 @@
               "ToolTip": "C:\\Users\\phant\\Desktop\\CM5\\CoffeeManagement\\SampleView.cs [Design]",
               "RelativeToolTip": "CoffeeManagement\\SampleView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:39:13.285Z"
+              "WhenOpened": "2024-12-26T07:39:13.285Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
