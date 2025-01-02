@@ -40,6 +40,7 @@
             this.txtSupplier = new System.Windows.Forms.TextBox();
             this.txtSupplierPhone = new System.Windows.Forms.TextBox();
             this.txtExDate = new System.Windows.Forms.TextBox();
+            this.cbSupplier = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -181,11 +182,28 @@
             this.txtExDate.Size = new System.Drawing.Size(145, 30);
             this.txtExDate.TabIndex = 13;
             // 
+            // cbSupplier
+            // 
+            this.cbSupplier.BackColor = System.Drawing.Color.Transparent;
+            this.cbSupplier.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbSupplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSupplier.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbSupplier.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbSupplier.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbSupplier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbSupplier.ItemHeight = 30;
+            this.cbSupplier.Location = new System.Drawing.Point(53, 358);
+            this.cbSupplier.Name = "cbSupplier";
+            this.cbSupplier.Size = new System.Drawing.Size(264, 36);
+            this.cbSupplier.TabIndex = 14;
+            this.cbSupplier.SelectedIndexChanged += new System.EventHandler(this.cbSupplier_SelectedIndexChanged);
+            // 
             // frmStorehouseAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 525);
+            this.Controls.Add(this.cbSupplier);
             this.Controls.Add(this.txtExDate);
             this.Controls.Add(this.txtSupplierPhone);
             this.Controls.Add(this.txtSupplier);
@@ -214,6 +232,7 @@
             this.Controls.SetChildIndex(this.txtSupplier, 0);
             this.Controls.SetChildIndex(this.txtSupplierPhone, 0);
             this.Controls.SetChildIndex(this.txtExDate, 0);
+            this.Controls.SetChildIndex(this.cbSupplier, 0);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
@@ -237,5 +256,6 @@
         private System.Windows.Forms.TextBox txtSupplier;
         private System.Windows.Forms.TextBox txtSupplierPhone;
         private System.Windows.Forms.TextBox txtExDate;
+        private Guna.UI2.WinForms.Guna2ComboBox cbSupplier;
     }
 }

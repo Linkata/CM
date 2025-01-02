@@ -1,0 +1,12 @@
+C:\Users\phant\Desktop\CM1\TL\bin\Debug\TL.dll
+C:\Users\phant\Desktop\CM1\TL\bin\Debug\TL.pdb
+C:\Users\phant\Desktop\CM1\TL\obj\Debug\TL.csproj.AssemblyReference.cache
+C:\Users\phant\Desktop\CM1\TL\obj\Debug\TL.csproj.CoreCompileInputs.cache
+C:\Users\phant\Desktop\CM1\TL\obj\Debug\TL.dll
+C:\Users\phant\Desktop\CM1\TL\obj\Debug\TL.pdb
+C:\Users\phant\Desktop\CM\TL\bin\Debug\TL.dll
+C:\Users\phant\Desktop\CM\TL\bin\Debug\TL.pdb
+C:\Users\phant\Desktop\CM\TL\obj\Debug\TL.csproj.AssemblyReference.cache
+C:\Users\phant\Desktop\CM\TL\obj\Debug\TL.csproj.CoreCompileInputs.cache
+C:\Users\phant\Desktop\CM\TL\obj\Debug\TL.dll
+C:\Users\phant\Desktop\CM\TL\obj\Debug\TL.pdb
