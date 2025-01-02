@@ -56,6 +56,11 @@ namespace CoffeeManagement.Model
             DialogResult = DialogResult.Cancel;
             Close();
         }
+
+        private void frmStorehouseAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

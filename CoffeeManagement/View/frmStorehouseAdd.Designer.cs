@@ -200,6 +200,7 @@
             this.Controls.Add(this.lblName);
             this.Name = "frmStorehouseAdd";
             this.Text = "frmStorehouseAdd";
+            this.Load += new System.EventHandler(this.frmStorehouseAdd_Load);
             this.Controls.SetChildIndex(this.guna2Panel1, 0);
             this.Controls.SetChildIndex(this.guna2Panel2, 0);
             this.Controls.SetChildIndex(this.lblName, 0);

@@ -1827,18 +1827,18 @@
             </summary>
             <returns></returns> 
         </member>
-        <member name="F:Guna.Charts.WinForms.GunaCharts_LicenseMgr.components">
+        <member name="F:Guna.Charts.WinForms.GunaChartsLicenseMgr.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:Guna.Charts.WinForms.GunaCharts_LicenseMgr.Dispose(System.Boolean)">
+        <member name="M:Guna.Charts.WinForms.GunaChartsLicenseMgr.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:Guna.Charts.WinForms.GunaCharts_LicenseMgr.InitializeComponent">
+        <member name="M:Guna.Charts.WinForms.GunaChartsLicenseMgr.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.

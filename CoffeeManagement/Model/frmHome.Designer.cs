@@ -64,6 +64,8 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2ChartSale = new Guna.Charts.WinForms.GunaChart();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
@@ -101,13 +103,11 @@
             this.guna2ChartRevenue.TabIndex = 0;
             chartFont2.FontName = "Arial";
             chartFont2.Size = 12;
-            chartFont2.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
             this.guna2ChartRevenue.Title.Font = chartFont2;
             chartFont3.FontName = "Arial";
             this.guna2ChartRevenue.Tooltips.BodyFont = chartFont3;
             chartFont4.FontName = "Arial";
             chartFont4.Size = 9;
-            chartFont4.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
             this.guna2ChartRevenue.Tooltips.TitleFont = chartFont4;
             this.guna2ChartRevenue.XAxes.GridLines = grid1;
             chartFont5.FontName = "Arial";
@@ -159,13 +159,11 @@
             this.guna2ChartSale.TabIndex = 0;
             chartFont10.FontName = "Arial";
             chartFont10.Size = 12;
-            chartFont10.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
             this.guna2ChartSale.Title.Font = chartFont10;
             chartFont11.FontName = "Arial";
             this.guna2ChartSale.Tooltips.BodyFont = chartFont11;
             chartFont12.FontName = "Arial";
             chartFont12.Size = 9;
-            chartFont12.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
             this.guna2ChartSale.Tooltips.TitleFont = chartFont12;
             this.guna2ChartSale.XAxes.GridLines = grid4;
             chartFont13.FontName = "Arial";
@@ -212,5 +210,7 @@
         private Guna.Charts.WinForms.GunaChart guna2ChartSale;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
     }
 }
